@@ -318,6 +318,10 @@ header .lang-switch a {
     img { max-width: 35%; max-height: 150px; }
   }
 
+  .metadata {
+    padding: 0.5em;
+  }
+
   h2 {
     padding: 0.5em;
     margin: 0;
