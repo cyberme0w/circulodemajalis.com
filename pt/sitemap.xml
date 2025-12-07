@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://circulodemajalis.com/</loc>
-    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,45 @@
                 rel="alternate"
                 hreflang="pt"
                 href="http://circulodemajalis.com/"
+                />
+  </url><url>
+    <loc>http://circulodemajalis.com/news/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/news/"
+                />
+  </url><url>
+    <loc>http://circulodemajalis.com/news/2025-12-07-migracoes/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/news/2025-12-07-migracoes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/news/2025-12-07-migracoes/"
+                />
+  </url><url>
+    <loc>http://circulodemajalis.com/events/2025-11-30-almoco/</loc>
+    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/events/2025-11-30-almoco/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/events/2025-11-30-almoco/"
                 />
   </url><url>
     <loc>http://circulodemajalis.com/events/2025-11-17-dia-da-criatividade/</loc>
@@ -39,19 +78,6 @@
                 rel="alternate"
                 hreflang="pt"
                 href="http://circulodemajalis.com/events/2025-09-26-a-voz-dos-montes/"
-                />
-  </url><url>
-    <loc>http://circulodemajalis.com/news/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://circulodemajalis.com/en/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://circulodemajalis.com/news/"
                 />
   </url><url>
     <loc>http://circulodemajalis.com/news/2025-09-11-despertares-01/</loc>
