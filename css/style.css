@@ -484,3 +484,18 @@ a img {
   width: 100%;
   padding: 0.5em;
 }
+
+/*******************************************************************************
+ * SHORTCODE: BLUR-FIT-BANNER
+ ******************************************************************************/
+
+.blur-fit-banner {
+  background-image: "";
+  background-position: center;
+  img {
+    width: 100%;
+    object-fit: contain;
+    max-height: 340px;
+    backdrop-filter: blur(8px);
+  }
+}
