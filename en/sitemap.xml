@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://circulodemajalis.com/en/</loc>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/"
+                />
+  </url><url>
     <loc>http://circulodemajalis.com/en/events/2026-03-20-dia-da-arvore/</loc>
     <lastmod>2026-03-20T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -13,19 +26,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://circulodemajalis.com/en/events/2026-03-20-dia-da-arvore/"
-                />
-  </url><url>
-    <loc>http://circulodemajalis.com/en/</loc>
-    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://circulodemajalis.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://circulodemajalis.com/en/"
                 />
   </url><url>
     <loc>http://circulodemajalis.com/en/news/2026-01-17-dia-da-arvore/</loc>
@@ -52,6 +52,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://circulodemajalis.com/en/news/"
+                />
+  </url><url>
+    <loc>http://circulodemajalis.com/en/news/2026-02-03-raiz-de-canha/</loc>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/news/2026-02-03-raiz-de-canha/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/news/2026-02-03-raiz-de-canha/"
                 />
   </url><url>
     <loc>http://circulodemajalis.com/en/news/2026-01-04-mercado-natal-pegoes/</loc>
