@@ -208,42 +208,6 @@ header .lang-switch a {
  * End of HEADER
  ******************************************************************************/
 
-/* Shortcode: Image Gallery */
-.gallery {}
-.gallery img {
-  display: inline;
-  width: 250px;
-  height: auto;
-  -webkit-transition: all .1s ease-in;
-     -moz-transition: all .1s ease-in;
-      -ms-transition: all .1s ease-in;
-       -o-transition: all .1s ease-in;
-}
-.gallery img:active {
-  transform: scale(1.5);
-  -webkit-transition: all .1s ease-in;
-     -moz-transition: all .1s ease-in;
-      -ms-transition: all .1s ease-in;
-       -o-transition: all .1s ease-in;
-}
-
-/* Shortcode: Image Group (imggroup) */
-.imggroup {
-  display: flex;
-  max-width: 100%;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 3px;
-  margin: 1rem;
-}
-
-.imggroup img {
-  margin: 0;
-  max-width: 30%;
-  min-width: 300px;
-}
-
 /*******************************************************************************
  * EVENT/NEWS LIST
  ******************************************************************************/
