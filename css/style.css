@@ -1,21 +1,41 @@
 :root {
   /* Color Palette: https://coolors.co/072120-0f4844-25ada6-79e2dc-cdf4f2 */
-  --color1: hsl(180, 65%, 10%);
-  --color2: hsl(180, 65%, 20%);
-  --color3: hsl(180, 65%, 40%);
-  --color4: hsl(180, 65%, 70%);
-  --color5: hsl(180, 65%, 97%);
+  --color1: hsl(178, 65%,  8%);
+  --color2: hsl(176, 66%, 17%);
+  --color3: hsl(177, 65%, 41%);
+  --color4: hsl(177, 65%, 68%);
+  --color5: hsl(177, 64%, 88%);
 
   /* Color Palette: https://coolors.co/030303-323232-747474-adadad-f1f1f1 */
-  --color-primary: LightSeaGreen;
-  --color-primary-light: MintCream;
-  --color-primary-dark: MidnightBlue;
-  --color-secondary-light: #91FFC8; /* MintCream 20% darker */
-  --color-secondary-dark: #2727AD; /* MidnightBlue 20% lighter */
-  --color-secondary-alert: Crimson;
+  --color-primary:                 rgb(12, 108, 103); /* Slightly darker LightSeaGreen to conform with WCAG */
+  --color-primary-light:           hsl(150, 100%, 98%); /*MintCream*/
+  --color-primary-light-darker002: hsl(150, 100%, 96%);
+  --color-primary-light-darker004: hsl(150, 100%, 94%);
+  --color-primary-dark:            hsl(240,63.5%,26.9%); /*MidnightBlue*/
+  --color-primary-dark-lighter020: hsl(240,63.5%,46.9%);
+  --color-primary-dark-lighter040: hsl(240,63.5%,66.9%);
+  --color-secondary-light:         #91FFC8; /* MintCream 20% darker */
+  --color-secondary-dark:          #2727AD; /* MidnightBlue 20% lighter */
+  --color-secondary-alert:         Crimson;
 
-  --link-color: var(--color-primary); /* Green; */
-  --link-color-hover: var(--color-secondary-dark); /* DarkGreen; */
+  --color-body-bg:                 var(--color-primary-light);
+  --color-body-fg:                 black;
+
+  --color-link:                    var(--color-primary-dark-lighter020);
+  --color-link-hover:              var(--color-primary-dark-lighter040);
+
+  --color-card-bg:                 var(--color-primary-light-darker002);
+  --color-card-bg-hover:           var(--color-primary-light-darker004);
+  --color-card-border:             var(--color-primary-dark);
+  --color-card-dropshadow:         var(--color-primary-dark);
+
+  --color-header-bg:               var(--color3);
+
+  --color-header-active-item-bg:   var(--color-primary-dark);
+  --color-header-inactive-item-bg: var(--color-primary-light);
+  --color-header-hovered-item:     var(--color-primary-dark);
+
+  --color-header-lang-link:        var(--color-primary-dark);
 
   --header-logo-height: 60px;
 
@@ -37,17 +57,16 @@
 html, body {
   padding: 0;
   margin: 0;
-  background-color: var(--color5);
+  background-color: var(--color-body-bg);
 }
 
 body {
-  color: var(--color1);
+  color: var(--color-body-fg);
   max-width: 960px;
   margin: auto;
 }
 
 .bg {
-  /*background-image: url('/images/igreja-canha.jpg');*/
   background-image: url('/images/bg.jpg');
   background-size: cover;
   -webkit-filter: blur(5px);
@@ -143,8 +162,8 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: var(--color-primary-dark);
-  background-color: var(--color-primary-light);
+  /*color: var(--color-primary-dark);*/
+  background-color: var(--color-header-inactive-item-bg);
   border: 1px solid black;
   text-decoration: none;
   white-space: nowrap;
@@ -152,13 +171,14 @@ header nav ul li a {
 }
 
 header nav ul li:hover a {
+  color: var(--color-header-hovered-item);
   filter: drop-shadow(8px 8px);
 }
 
 
 header nav ul li a.active {
   color: var(--color-primary-light);
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-header-active-item-bg);
 }
 
 /* Enable sidebar if small enough */
@@ -201,7 +221,7 @@ header nav ul li a.active {
 }
 
 header .lang-switch a {
-  color: var(--color-primary-dark);
+  color: var(--color-header-lang-link);
 }
 
 /*******************************************************************************
@@ -223,16 +243,18 @@ header .lang-switch a {
  ******************************************************************************/
 
 .card {
-  border: 2px solid var(--color-primary-dark);
+  border: 2px solid var(--color-card-border);
   padding: 10px;
   border-radius: 15px;
   margin: 15px 0;
-  background-color: var(--color-primary-light);
-  filter: brightness(0.90) drop-shadow(4px 4px);
+  background-color: var(--color-card-bg);
+  filter: drop-shadow(4px 4px);
+  transition: var(--transition-time);
 }
 
 .card:hover {
-  filter: brightness(0.8) drop-shadow(8px 8px);
+  background-color: var(--color-card-bg-hover);
+  filter: drop-shadow(8px 8px);
 }
 
 .card img {
@@ -256,10 +278,26 @@ header .lang-switch a {
   text-align: right;
 }
 
-.card a.name {
+.card .name {
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
+}
+
+.card .footer {
+  display: grid;
+  margin-bottom: 0;
+  margin-top: 0.5em;
+}
+
+.card .footer .date {
+  font-style: italic;
+  grid-column: 1;
+}
+
+.card .footer .readmore {
+  text-align: right;
+  grid-column: 2;
 }
 
 /*******************************************************************************
@@ -317,7 +355,6 @@ footer p a img {
 footer p a {
   padding: 5px;
   border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
-
 }
 footer p a:hover {
   transition: 0.2s; -webkit-transition: 0.2s;
@@ -329,8 +366,8 @@ footer p a:hover {
  ******************************************************************************/
 
 a {
-  color: var(--link-color);
-  &:hover { color: var(--link-color-hover); }
+  color: var(--color-link);
+  &:hover { color: var(--color-link-hover); }
 
   transition: var(--transition-time);
 }

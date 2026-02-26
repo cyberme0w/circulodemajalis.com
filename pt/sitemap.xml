@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://circulodemajalis.com/</loc>
-    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -26,6 +26,19 @@
                 rel="alternate"
                 hreflang="pt"
                 href="http://circulodemajalis.com/events/2026-03-20-dia-da-arvore/"
+                />
+  </url><url>
+    <loc>http://circulodemajalis.com/events/2026-02-28-feira-medieval-na-btl/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/events/2026-02-28-feira-medieval-na-btl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/events/2026-02-28-feira-medieval-na-btl/"
                 />
   </url><url>
     <loc>http://circulodemajalis.com/news/2026-02-22-btl-feira-26/</loc>
