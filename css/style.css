@@ -9,19 +9,31 @@
   /* Color Palette: https://coolors.co/030303-323232-747474-adadad-f1f1f1 */
   --color-primary:                 rgb(12, 108, 103); /* Slightly darker LightSeaGreen to conform with WCAG */
   --color-primary-light:           hsl(150, 100%, 98%); /*MintCream*/
-  --color-primary-light-darker002: hsl(150, 100%, 96%);
-  --color-primary-light-darker004: hsl(150, 100%, 94%);
+  --color-primary-light-darker002: hsl(150, 100%, 96%); /*#ebfff5*/
+  --color-primary-light-darker004: hsl(150, 100%, 94%); /*#e0fff0*/
   --color-primary-dark:            hsl(240,63.5%,26.9%); /*MidnightBlue*/
-  --color-primary-dark-lighter020: hsl(240,63.5%,46.9%);
-  --color-primary-dark-lighter040: hsl(240,63.5%,66.9%);
+  --color-primary-dark-lighter020: hsl(240,63.5%,46.9%); /*#2c2cc4*/
+  --color-primary-dark-lighter040: hsl(240,63.5%,66.9%); /*#7575e0*/
   --color-secondary-light:         #91FFC8; /* MintCream 20% darker */
   --color-secondary-dark:          #2727AD; /* MidnightBlue 20% lighter */
   --color-secondary-alert:         Crimson;
 
-  --color-body-bg:                 var(--color-primary-light);
-  --color-body-fg:                 black;
 
-  --color-link:                    var(--color-primary-dark-lighter020);
+  /* Experiment for new header */
+  --color-primary:                 #336800;
+  --color-primary-light:           #deebf4;
+  --color-primary-light-darker002: #eef4f9;
+  --color-primary-light-darker004: #e2edf5;
+  --color-primary-dark:            #1E4C01;
+  --color-primary-dark-lighter020: #3a9302;
+  --color-primary-dark-lighter040: #55da03;
+  --color-dark:                    #001700;
+
+  /* Used vars */
+  --color-body-bg:                 var(--color-primary-light);
+  --color-body-fg:                 Black;
+
+  --color-link:                    var(--color-primary-dark);
   --color-link-hover:              var(--color-primary-dark-lighter040);
 
   --color-card-bg:                 var(--color-primary-light-darker002);
@@ -29,18 +41,22 @@
   --color-card-border:             var(--color-primary-dark);
   --color-card-dropshadow:         var(--color-primary-dark);
 
-  --color-header-bg:               var(--color3);
+  --color-header-bg:               var(--color-primary);
 
   --color-header-active-item-bg:   var(--color-primary-dark);
   --color-header-inactive-item-bg: var(--color-primary-light);
   --color-header-hovered-item:     var(--color-primary-dark);
 
-  --color-header-lang-link:        var(--color-primary-dark);
+  --color-header-lang-link:        var(--color-primary-light);
 
-  --header-logo-height: 60px;
+  --color-hamburger-bg:            var(--color-dark);
+  --color-hamburger-fg:            var(--color-primary-light);
 
+  --color-homepage-banner-overlay: var(--color-primary-light);
+
+  /* timings */
+  --header-logo-height: 70px;
   --transition-time: .1s ease-in;
-
   --button-padding: 0.5em;
 
   /* Hamburger and sidebar */
@@ -69,11 +85,13 @@ body {
 .bg {
   background-image: url('/images/bg.jpg');
   background-size: cover;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
+  --bg-blur: 10px;
+  -webkit-filter: blur(var(--bg-blur));
+  -moz-filter: blur(var(--bg-blur));
+  -o-filter: blur(var(--bg-blur));
+  -ms-filter: blur(var(--bg-blur));
+  filter: blur(var(--bg-blur));
+  transform: scale(1.1);
   position: fixed;
   width: 100%;
   height: 100%;
@@ -93,7 +111,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: var(--header-vertical-padding);
-  background-color: var(--color3);
+  background-color: var(--color-header-bg);
+  position: relative;
 }
 
 header .logo,
@@ -115,22 +134,22 @@ header .hamburger-menu {
   height: var(--hamburger-menu-size);
   background: linear-gradient(
     to bottom,
-    var(--color1)  0%, var(--color1)  20%,
+    var(--color-hamburger-bg)  0%, var(--color-hamburger-bg)  20%,
     #0000     20%, #0000      40%,
-    var(--color1) 40%, var(--color1)  60%,
+    var(--color-hamburger-bg) 40%, var(--color-hamburger-bg)  60%,
     #0000     60%, #0000      80%,
-    var(--color1) 80%, var(--color1) 100%
+    var(--color-hamburger-bg) 80%, var(--color-hamburger-bg) 100%
   );
   z-index: 13;
 
   &:has(input:checked) {
     background: linear-gradient(
       to bottom,
-      var(--color5)  0%, var(--color5)  20%,
+      var(--color-hamburger-fg)  0%, var(--color-hamburger-fg)  20%,
       #0000     20%, #0000      40%,
-      var(--color5) 40%, var(--color5)  60%,
+      var(--color-hamburger-fg) 40%, var(--color-hamburger-fg)  60%,
       #0000     60%, #0000      80%,
-      var(--color5) 80%, var(--color5) 100%
+      var(--color-hamburger-fg) 80%, var(--color-hamburger-fg) 100%
     );
   }
 }
@@ -146,6 +165,7 @@ header nav {
   display: flex;
   flex-grow: 1;
   z-index: 12;
+  background-color: var(--color-bg);
 }
 
 header nav ul {
@@ -162,7 +182,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  /*color: var(--color-primary-dark);*/
+  color: var(--color-primary-dark);
   background-color: var(--color-header-inactive-item-bg);
   border: 1px solid black;
   text-decoration: none;
@@ -197,7 +217,7 @@ header nav ul li a.active {
     padding: var(--sidebar-vertical-padding) 0px;
     margin: 0px;
     gap: var(--sidebar-gap);
-    backdrop-filter: blur(10px) brightness(60%);
+    backdrop-filter: blur(20px) brightness(50%);
   }
 
   header nav ul li {
@@ -220,6 +240,7 @@ header nav ul li a.active {
   }
 }
 
+header .lang-switch,
 header .lang-switch a {
   color: var(--color-header-lang-link);
 }
@@ -227,6 +248,66 @@ header .lang-switch a {
 /*******************************************************************************
  * End of HEADER
  ******************************************************************************/
+
+
+/*******************************************************************************
+ * HOMEPAGE
+ ******************************************************************************/
+
+/* Notes:
+ * - body is max-width: 960px (60rem)
+ * - mobile view swaps at: 672px (42rem)
+ */
+
+header {
+}
+
+#banner-container {
+  position: relative;
+}
+
+#banner-container span {
+  margin-bottom: auto;
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: var(--color-homepage-banner-overlay);
+  color: white;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+#banner-container img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 55rem) {
+  #banner-container span {
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+  }
+}
+@media screen and (max-width: 50rem) {
+  #banner-container span {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+  }
+}
+@media screen and (max-width: 45rem) {
+  #banner-container span {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+  }
+}
+@media screen and (max-width: 42rem) {
+  #banner-container span {
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+  }
+}
+
+
+
 
 /*******************************************************************************
  * EVENT/NEWS LIST
@@ -421,6 +502,17 @@ a img {
   cursor: zoom-in;
 }
 
+.pagenumber {
+  font-size: larger;
+  padding: 0.5em;
+  margin: 0.1em;
+  background-color: red;
+}
+
+.pagenumber a {
+  height: 100%;
+  width: 100%;
+}
 /*******************************************************************************
  * SHORTCODE: YOUTUBE
  ******************************************************************************/
