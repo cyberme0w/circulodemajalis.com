@@ -515,11 +515,8 @@ article > blockquote {
   border-left: 3px solid var(--color-primary-dark);
 
   /* second blockquote used for source of blockquote */
-  blockquote::before {
-    content: "Source";
-  }
   blockquote {
-    font-style: italic;
+    /* TODO: does this actually need any styling? */
   }
 }
 
