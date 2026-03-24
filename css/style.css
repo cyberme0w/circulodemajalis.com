@@ -509,6 +509,18 @@ a img {
   cursor: zoom-in;
 }
 
+article > blockquote {
+  margin: 16px;
+  padding-left: 20px;
+  border-left: 3px solid var(--color-primary-dark);
+
+  /* second blockquote used for source of blockquote */
+  blockquote::before {
+    content: "Source";
+  }
+  blockquote {
+    font-style: italic;
+  }
 }
 
 /*******************************************************************************
