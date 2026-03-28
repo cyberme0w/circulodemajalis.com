@@ -62,6 +62,8 @@
   --color-pagenumber-fg:           var(--color-primary);
   --color-pagenumber-border:       var(--color-primary-dark);
 
+  --color-yt-text-overlay:         var(--color-primary-light);
+
   /* timings */
   --header-logo-height: 70px;
   --transition-time: .1s ease-in;
@@ -564,7 +566,7 @@ article > blockquote {
 .yt-link a p {
   grid-row: 1;
   grid-column: 1;
-  color: var(--color5);
+  color: var(--color-yt-text-overlay);
   text-align: center;
   backdrop-filter: blur(10px);
   height: fit-content;
