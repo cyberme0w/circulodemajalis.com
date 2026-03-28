@@ -622,3 +622,16 @@ article > blockquote {
     max-height: 340px; /* You can set this however you like. Your image may be wide or tall but it will always be at most this threshold. At this point, our blurry background starts to become visible. */
   }
 }
+
+/*******************************************************************************
+ * SHORTCODE: CLICKZOOM
+ ******************************************************************************/
+figure.clickzoom {
+  display: inline-table;
+
+}
+
+figure.clickzoom figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
