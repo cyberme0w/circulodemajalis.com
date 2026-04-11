@@ -64,7 +64,7 @@
 
   --color-yt-text-overlay:         var(--color-primary-light);
 
-  /* timings */
+  /* Timings */
   --header-logo-height: 70px;
   --transition-time: .1s ease-in;
   --button-padding: 0.5em;
@@ -518,7 +518,11 @@ figure {
 }
 
 a img {
-  cursor: zoom-in;
+  color: var(--color-primary-dark);
+  transition: var(--transition-time);
+  &:hover {
+    filter: drop-shadow(8px 8px);
+  }
 }
 
 article > blockquote {
