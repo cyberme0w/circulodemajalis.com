@@ -635,3 +635,11 @@ figure.clickzoom figcaption {
   display: table-caption;
   caption-side: bottom;
 }
+
+/*******************************************************************************
+ * SHORTCODE: TOCHECK
+ ******************************************************************************/
+div.to-check {
+  color: white !important;
+  background-color: red !important;
+}
