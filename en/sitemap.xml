@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://circulodemajalis.com/en/</loc>
-    <lastmod>2026-05-02T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -13,6 +13,45 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://circulodemajalis.com/en/"
+                />
+  </url><url>
+    <loc>http://circulodemajalis.com/en/news/</loc>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/news/"
+                />
+  </url><url>
+    <loc>http://circulodemajalis.com/en/news/2026-05-10-procura-se-corte-real/</loc>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/news/2026-05-10-procura-se-corte-real/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/news/2026-05-10-procura-se-corte-real/"
+                />
+  </url><url>
+    <loc>http://circulodemajalis.com/en/news/2026-05-08-procura-se-casal-real-por-um-dia/</loc>
+    <lastmod>2026-05-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/news/2026-05-08-procura-se-casal-real-por-um-dia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/news/2026-05-08-procura-se-casal-real-por-um-dia/"
                 />
   </url><url>
     <loc>http://circulodemajalis.com/en/events/2026-05-02-aniversario/</loc>
@@ -52,19 +91,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://circulodemajalis.com/en/news/2026-03-01-entrevista-ativamente/"
-                />
-  </url><url>
-    <loc>http://circulodemajalis.com/en/news/</loc>
-    <lastmod>2026-03-01T10:54:01+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://circulodemajalis.com/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://circulodemajalis.com/en/news/"
                 />
   </url><url>
     <loc>http://circulodemajalis.com/en/events/2026-02-28-feira-medieval-na-btl/</loc>
