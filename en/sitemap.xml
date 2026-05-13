@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://circulodemajalis.com/en/</loc>
-    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>http://circulodemajalis.com/en/news/</loc>
-    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -26,6 +26,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://circulodemajalis.com/en/news/"
+                />
+  </url><url>
+    <loc>http://circulodemajalis.com/en/news/2026-05-12-fmc26-voluntarios/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/news/2026-05-12-fmc26-voluntarios/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/news/2026-05-12-fmc26-voluntarios/"
                 />
   </url><url>
     <loc>http://circulodemajalis.com/en/news/2026-05-10-procura-se-corte-real/</loc>
