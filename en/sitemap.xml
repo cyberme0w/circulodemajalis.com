@@ -28,6 +28,32 @@
                 href="http://circulodemajalis.com/en/"
                 />
   </url><url>
+    <loc>http://circulodemajalis.com/en/news/2026-05-27-encontros-com-a-historia/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/news/2026-05-27-encontros-com-a-historia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/news/2026-05-27-encontros-com-a-historia/"
+                />
+  </url><url>
+    <loc>http://circulodemajalis.com/en/news/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/news/"
+                />
+  </url><url>
     <loc>http://circulodemajalis.com/en/news/2026-05-20-fmc26-fachadas/</loc>
     <lastmod>2026-05-20T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -39,19 +65,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://circulodemajalis.com/en/news/2026-05-20-fmc26-fachadas/"
-                />
-  </url><url>
-    <loc>http://circulodemajalis.com/en/news/</loc>
-    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://circulodemajalis.com/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://circulodemajalis.com/en/news/"
                 />
   </url><url>
     <loc>http://circulodemajalis.com/en/news/2026-05-12-fmc26-voluntarios/</loc>
