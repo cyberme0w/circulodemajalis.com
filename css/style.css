@@ -588,10 +588,13 @@ article > blockquote {
  * SHORTCODE: BRASAO
  ******************************************************************************/
 
+.brasao-container {
+  display: inline-block;
+  font-weight: bold;
+}
+
 .brasao {
-  display: inline;
   height: 6rem;
-  width: 6rem;
   padding: 0.5em;
 }
 
@@ -646,4 +649,55 @@ figure.clickzoom figcaption {
 div.to-check {
   color: white !important;
   background-color: red !important;
+}
+
+/*******************************************************************************
+ * SHORTCODE: NAV-BUTTON
+ ******************************************************************************/
+
+.nav-button {
+  font-family: BLKCHCRY;
+  display: inline-block;
+  background-color: darkgreen;
+  width: 300px;
+  height: 200px;
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 10px;
+  text-align: center;
+  align-content: center;
+  transition: var(--transition-time);
+}
+
+.nav-button:hover {
+  background-color: green;
+  transition: var(--transition-time);
+  filter: drop-shadow(8px 8px);
+}
+
+.nav-button:hover a {
+  transition: var(--transition-time);
+  transform: rotate(3deg) scale(1.1);
+}
+
+.nav-button a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  color: white;
+}
+
+/*******************************************************************************
+ * SHORTCODE: ROTATE-ON-HOVER
+ ******************************************************************************/
+
+.rotate-on-hover {
+  transition: var(--transition-time);
+}
+
+.rotate-on-hover:hover {
+  transition: var(--transition-time);
+  transform: rotate(3deg) scale(0.9);
+  filter: drop-shadow(8px 8px);
 }
