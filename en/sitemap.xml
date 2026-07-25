@@ -2,21 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://circulodemajalis.com/en/events/2026-07-24-feira-medieval/</loc>
-    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://circulodemajalis.com/events/2026-07-24-feira-medieval/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://circulodemajalis.com/en/events/2026-07-24-feira-medieval/"
-                />
-  </url><url>
     <loc>http://circulodemajalis.com/en/</loc>
-    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -29,7 +16,7 @@
                 />
   </url><url>
     <loc>http://circulodemajalis.com/en/news/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -39,6 +26,32 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://circulodemajalis.com/en/news/"
+                />
+  </url><url>
+    <loc>http://circulodemajalis.com/en/news/2026-07-25-primeiro-dia-da-feira-medieval-de-canha/</loc>
+    <lastmod>2026-07-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/news/2026-07-25-primeiro-dia-da-feira-medieval-de-canha/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/news/2026-07-25-primeiro-dia-da-feira-medieval-de-canha/"
+                />
+  </url><url>
+    <loc>http://circulodemajalis.com/en/events/2026-07-24-feira-medieval/</loc>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://circulodemajalis.com/events/2026-07-24-feira-medieval/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://circulodemajalis.com/en/events/2026-07-24-feira-medieval/"
                 />
   </url><url>
     <loc>http://circulodemajalis.com/en/news/2026-06-16-bruxa-de-canha/</loc>
